@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Fundamentals - HyNusantara Academy</title>
+</head>
+<body>
+    <h1>HTML Form - HyNusantara Academy</h1>
+    <p>Perhatikan form berikut ini.</p>
+    <form action="">
+        <input type="text" name="pesan">
+        <input type="button" value="Kirim">
+    </form>
+    <p><small>Formulir di atas tentu tidak akan berjalan, santai aja dulu.</small></p>
+
+    <hr>
+
+    <p>Selain input teks, kita juga bisa gunakan password, email, nomor telepon dan sebagainya. Yuk perhatikan!</p>
+    <form action="">
+        <input type="password" name="sandi1" placeholder="Kata sandi">
+        <input type="password" name="sandi2" placeholder="Ulangi lagi">
+        <button type="submit">Simpan Kata Sandi</button>
+    </form>
+
+    <hr>
+
+    <p>Bisa juga menggunakan radio button, checkbox, combobox.</p>
+    <form action="">
+        <input type="radio" name="jk" value="pria"> Pria
+        <input type="radio" name="jk" value="wanita"> Wanita
+    </form>
+
+    <form action="">
+        <input type="checkbox" name="minat" value="code"> Ngoding
+        <input type="checkbox" name="minat" value="program"> Programming
+        <input type="checkbox" name="minat" value="develop"> Developing
+    </form>
+
+    <form action="">
+        <label for="bahasa">Pilih bahasa</label>
+        <select name="bahasa">
+            <option value="id">Indonesia</option>
+            <option value="en">English</option>
+            <option value="my">Malaysia</option>
+        </select>
+    </form>
+
+    <hr>
+
+    <p>Bisa juga upload file gambar atau video</p>
+    <form action="">
+        <input type="file" name="logo">
+    </form>
+</body>
+</html>
